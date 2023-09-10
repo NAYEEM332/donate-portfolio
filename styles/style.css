@@ -1,0 +1,85 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0;
+}
+
+/* header Section */
+
+.header-heading{
+    background-image: linear-gradient(to top, black, rgba(226, 184, 184, 0)), url(../images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding: 150px 200px;
+    
+}
+.header-title{
+    font-size: 45px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header-description{
+    font-size: 18px;
+    max-width: 750px;
+    margin: 30px auto;
+}
+
+.btn-primary{
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* First Section */
+
+.first-section{
+    text-align: center;
+}
+
+.first-section-title{
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.first-section-description{
+    color: gray;
+    max-width: 750px;
+    margin: 30px auto;
+}
+
+.first-section-division{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.btn-money{
+    padding: 25px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-money:hover{
+    background-color: rgb(255, 222, 161);
+    border: 2px solid rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+}
+
+.first-section-input{
+    margin: 30px auto;
+    border: none;
+    border-bottom: 2px solid rgb(194, 194, 194);
+    padding: 2px 250px;
+}

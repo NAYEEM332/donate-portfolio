@@ -177,3 +177,21 @@
     color: white;
     margin: 0;
 }
+
+/* footer */
+
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+}
+.footer-title{
+    color: orangered;
+    font-size: 24px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.footer-description{
+    color: white;
+    font-size: 12px;
+}
